@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="108129b6-60f3-4dca-9957-b9a090184db0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/maven/sukacode/database/ConnectionPoolTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -14,23 +13,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="672">
-              <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+            <state relative-caret-position="252">
+              <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/maven/sukacode/database/ConnectionPoolTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="42">
+              <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -51,7 +47,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/maven/sukacode/database/ConnectionTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="174">
-              <caret line="42" column="98" lean-forward="true" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="98" />
+              <caret line="42" column="98" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="98" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,14 +82,24 @@
         <option value="$PROJECT_DIR$/src/test/java/maven/sukacode/database/DriverTest.java" />
         <option value="$PROJECT_DIR$/sukacode-java-database/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/maven/sukacode/database/ConnectionTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/maven/sukacode/database/ConnectionPoolTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="sukacode-java-databse" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="sukacode-java-databse" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
@@ -162,6 +168,13 @@
               <item name="Maven: com.zaxxer:HikariCP:5.0.1" type="70bed36:NamedLibraryElementNode" />
               <item name="HikariCP-5.0.1.jar" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="sukacode-java-database" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.zaxxer:HikariCP:5.0.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="HikariCP-5.0.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="hikari" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -171,7 +184,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1675846808472" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1675847183762" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
@@ -187,7 +200,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ConnectionPoolTest">
+  <component name="RunManager" selected="JUnit.ConnectionPoolTest.testHikariCP">
     <configuration name="ConnectionPoolTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sukacode-java-database" />
       <extension name="coverage">
@@ -269,8 +282,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ConnectionPoolTest" />
         <item itemvalue="JUnit.ConnectionPoolTest.testHikariCP" />
+        <item itemvalue="JUnit.ConnectionPoolTest" />
         <item itemvalue="JUnit.ConnectionTest.testConnectionClose" />
         <item itemvalue="JUnit.ConnectionTest.testConnection" />
         <item itemvalue="JUnit.DriverTest.testRegister" />
@@ -332,9 +345,9 @@
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="Image Layers" order="5" />
-      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.2632375" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.19818456" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Messages" order="0" visible="true" weight="0.34460548" />
+      <window_info active="true" anchor="bottom" id="Messages" order="0" visible="true" weight="0.26409018" />
       <window_info anchor="bottom" id="Version Control" order="1" />
       <window_info anchor="bottom" id="DB Diagnostics" order="2" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
@@ -350,7 +363,7 @@
       <window_info anchor="right" id="Theme Preview" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
-      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.13388805" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.21785174" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
@@ -373,13 +386,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/maven/sukacode/database/DriverTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
@@ -393,20 +399,31 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/maven/sukacode/database/ConnectionTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
-          <caret line="42" column="98" lean-forward="true" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="98" />
+          <caret line="42" column="98" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="98" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/zaxxer/HikariCP/5.0.1/HikariCP-5.0.1.jar!/com/zaxxer/hikari/HikariConfig.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13471">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/maven/sukacode/database/ConnectionPoolTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="42">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
         </state>
       </provider>
     </entry>
