@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="108129b6-60f3-4dca-9957-b9a090184db0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/maven/sukacode/database/ConnectionPoolTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sukacode-java-database.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sukacode-java-database.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,11 +14,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
+            <state relative-caret-position="672">
               <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/maven/sukacode/database/ConnectionPoolTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -39,8 +50,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/maven/sukacode/database/ConnectionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="12">
-              <caret line="44" column="29" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="29" />
+            <state relative-caret-position="174">
+              <caret line="42" column="98" lean-forward="true" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="98" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -76,6 +87,7 @@
         <option value="$PROJECT_DIR$/sukacode-java-database/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/maven/sukacode/database/ConnectionTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/maven/sukacode/database/ConnectionPoolTest.java" />
       </list>
     </option>
   </component>
@@ -139,6 +151,17 @@
               <item name="sukacode-java-database" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
+            <path>
+              <item name="sukacode-java-database" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.zaxxer:HikariCP:5.0.1" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="sukacode-java-database" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.zaxxer:HikariCP:5.0.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="HikariCP-5.0.1.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -148,7 +171,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1675845531931" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1675846808472" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
@@ -164,7 +187,38 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ConnectionTest.testConnectionClose">
+  <component name="RunManager" selected="JUnit.ConnectionPoolTest">
+    <configuration name="ConnectionPoolTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sukacode-java-database" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="maven.sukacode.database.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="maven.sukacode.database" />
+      <option name="MAIN_CLASS_NAME" value="maven.sukacode.database.ConnectionPoolTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConnectionPoolTest.testHikariCP" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sukacode-java-database" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="maven.sukacode.database.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="maven.sukacode.database" />
+      <option name="MAIN_CLASS_NAME" value="maven.sukacode.database.ConnectionPoolTest" />
+      <option name="METHOD_NAME" value="testHikariCP" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConnectionTest.testConnection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sukacode-java-database" />
       <extension name="coverage">
@@ -215,6 +269,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ConnectionPoolTest" />
+        <item itemvalue="JUnit.ConnectionPoolTest.testHikariCP" />
         <item itemvalue="JUnit.ConnectionTest.testConnectionClose" />
         <item itemvalue="JUnit.ConnectionTest.testConnection" />
         <item itemvalue="JUnit.DriverTest.testRegister" />
@@ -276,21 +332,21 @@
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="Image Layers" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.18003026" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.2632375" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="Version Control" order="0" />
-      <window_info anchor="bottom" id="DB Diagnostics" order="1" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="3" />
-      <window_info anchor="bottom" id="DB Execution Console" order="4" />
-      <window_info anchor="bottom" id="Message" order="5" />
-      <window_info anchor="bottom" id="Find" order="6" />
-      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.32850242" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info active="true" anchor="bottom" id="Messages" order="0" visible="true" weight="0.34460548" />
+      <window_info anchor="bottom" id="Version Control" order="1" />
+      <window_info anchor="bottom" id="DB Diagnostics" order="2" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="4" />
+      <window_info anchor="bottom" id="DB Execution Console" order="5" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.32850242" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
       <window_info anchor="right" id="Theme Preview" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
@@ -317,6 +373,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/maven/sukacode/database/DriverTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
@@ -329,18 +392,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/maven/sukacode/database/ConnectionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12">
-          <caret line="44" column="29" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="29" />
+        <state relative-caret-position="174">
+          <caret line="42" column="98" lean-forward="true" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="98" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/maven/sukacode/database/ConnectionPoolTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+        <state relative-caret-position="231">
+          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
