@@ -8,7 +8,7 @@
   <artifactId>sukacode-java-databse</artifactId>
   <version>1.0-SNAPSHOT</version>
 
-  <name>sukacode-java-databse</name>
+  <name>sukacode-java-database</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
@@ -35,6 +35,16 @@
       <artifactId>HikariCP</artifactId>
       <version>5.0.1</version>
     </dependency>
+    <!--<dependency>-->
+      <!--<groupId>org.slf4j</groupId>-->
+      <!--<artifactId>slf4j-api</artifactId>-->
+      <!--<version>${slf4j.version}</version>-->
+    <!--</dependency>-->
+    <!--<dependency>-->
+      <!--<groupId>org.slf4j</groupId>-->
+      <!--<artifactId>slf4j-simple</artifactId>-->
+      <!--<version>${slf4j.version}</version>-->
+    <!--</dependency>-->
   </dependencies>
 
   <build>
